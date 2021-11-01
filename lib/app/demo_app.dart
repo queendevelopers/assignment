@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:swivt/src/main/modules/homepage/homepage_view.dart';
+import 'package:swivt/src/main/ui/screens/splash_screen.dart';
 
 class DemoApp extends StatelessWidget {
   @override
@@ -9,7 +10,7 @@ class DemoApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: HomepageView(),
+      home: SplashScreen(),
     );
   }
 }
